@@ -22,7 +22,7 @@ public class Ejer_Github {
         
         System.out.println("Escribe tu nombre completo");
         nombre=sc.nextLine();
-        System.out.print("Las iniciales del "+nombre+" nombre son: "); 
+        System.out.print("Las iniciales del nombre: "+nombre+" son: "); 
         inc(nombre);
     }
     
@@ -31,6 +31,7 @@ public class Ejer_Github {
         
         for(int i=0; i<letras.length; i++) {
             System.out.print(letras[i].charAt(0)+" ");
+            System.out.println(letras[i]);
         }
         
     }
